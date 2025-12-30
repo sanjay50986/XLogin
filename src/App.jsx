@@ -2,8 +2,8 @@ import React, { useState } from 'react'
 
 const App = () => {
 
-  let userName =  "sanjay50986"
-  let password = "12345678"
+  let userName =  "user"
+  let password = "password"
 
   const [user, setUser] = useState("")
   const [pass, setPass] = useState("")
