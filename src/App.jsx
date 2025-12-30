@@ -38,10 +38,10 @@ const App = () => {
       )}
       { showInputs && ( <div>
         <div style={{paddingTop: "10px"}}>
-      <label htmlFor="username">Username:</label>
+      <label htmlFor="user">Username:</label>
       <input type="text"
-        id="username"
-        name="username"
+        id="user"
+        name="user"
         required
         placeholder='username'
         onChange={(e) => setUser(e.target.value)}
